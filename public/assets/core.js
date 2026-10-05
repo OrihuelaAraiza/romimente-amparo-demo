@@ -7639,7 +7639,7 @@ function hc16Print() {
     return `<p style="page-break-inside:avoid"><b>${esc(f.label)}</b><br>${esc(value || "No registrado")}</p>`;
   });
   printPage(
-    `Historia clínica ${hc16Mode() === "adult" ? "adulta" : "adolescente"} · ${g.title}`,
+    `Historia clínica ${hc16Mode() === "adult" ? "adulta" : hc16Mode() === "child" ? "infantil" : "adolescente"} · ${g.title}`,
     `<p><b>${esc(p.id)}</b> · ${esc(p.name)}</p>${rows.join("")}`,
   );
 }
