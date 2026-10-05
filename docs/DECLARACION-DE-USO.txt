@@ -1,0 +1,33 @@
+DECLARACIÓN DE USO DE SOFTWARE
+ROMImente · Clínica El Amparo
+Borrador para revisión institucional · 5 oct 2026
+
+1. Objeto
+ROMImente presenta una plataforma para organizar el expediente de psicología, acompañamiento terapéutico y proyecto social de Clínica El Amparo. Este documento describe el alcance de la demostración y no constituye una autorización para operar con información clínica real.
+
+2. Alcance de esta versión
+Incluye perfiles simulados de profesionales y paciente; admisión, historia clínica por edad, notas de evolución y SOAP, actividades, ACT/DBT, valoraciones pre/post, agenda, documentos, alta de servicio, cierre administrativo, pagos simulados e indicadores. El proyecto social es una propuesta inicial pendiente de validación institucional.
+
+3. Uso permitido
+Exploración, presentación y pruebas con datos ficticios. El usuario de la demostración se compromete a no registrar nombres, documentos, audios ni información de pacientes reales.
+
+4. Datos y resguardo
+Los cambios se guardan en el navegador del dispositivo y no se sincronizan entre personas o equipos. Los archivos y grabaciones se guardan localmente. Borrar los datos del navegador elimina estos registros. La bitácora es demostrativa y editable desde las herramientas del navegador; no ofrece garantías de auditoría.
+
+5. Funciones simuladas
+La selección de perfil no verifica identidad ni controla acceso clínico real. La asistencia automatizada y transcripción de ejemplo son simulaciones. Zoom, pagos, envío de mensajes, firmas y certificaciones no están conectados a servicios de producción. El dictado opcional depende del reconocimiento de voz del navegador y puede usar el servicio de su proveedor.
+
+6. Responsabilidad profesional
+La valoración, diagnóstico, intervención, interpretación de instrumentos, consentimiento y validación de documentos corresponden al profesional responsable. Los instrumentos externos se registran por resultados y no se reproducen cuadernillos licenciados. El sistema no sustituye el juicio clínico ni presta atención de emergencia.
+
+7. Antes de uso clínico
+Se requiere acordar y verificar autenticación real, permisos en servidor, base de datos protegida, respaldos, manejo de menores, retención, aviso de privacidad, consentimientos, firma aplicable, gestión de incidentes y revisión institucional y jurídica del sistema. No se declara cumplimiento normativo o certificación a partir de este demo.
+
+8. Aceptación institucional (pendiente)
+Responsable de Clínica El Amparo: ____________________
+Responsable técnico: ____________________
+Versión y fecha autorizadas: ____________________
+Observaciones: ____________________
+Firmas: ____________________
+
+Documento de trabajo. Completar y aprobar por las personas responsables antes de su adopción.
