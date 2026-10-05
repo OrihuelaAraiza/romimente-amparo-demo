@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>ROMImente · Clínica El Amparo</title>
+    <link rel="stylesheet" href="/assets/base.css" />
+    <link rel="stylesheet" href="/assets/platform.css" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta
+      name="description"
+      content="Demo de ROMImente para Clínica El Amparo: expediente psicológico y proyecto social."
+    />
+  </head>
+  <body>
+    <div id="login">
+      <div class="loginCard">
+        <div class="loginArt">
+          <div>
+            <div class="eyebrow" style="color: #c4e2d6">
+              ESPACIO DE ATENCIÓN PSICOLÓGICA
+            </div>
+            <h1>ROMImente.</h1>
+            <p style="line-height: 1.7; font-size: 16px; max-width: 310px">
+              Expediente psicológico, seguimiento terapéutico y portal de
+              pacientes.
+            </p>
+          </div>
+          <div>● Versión 13 · Editor de plantillas terapéuticas</div>
+        </div>
+        <div class="loginForm">
+          <div class="eyebrow">Bienvenido</div>
+          <h1>Acceso a la plataforma</h1>
+          <p class="muted">
+            Selecciona un perfil para explorar su experiencia.
+          </p>
+          <label>Perfil de demostración</label
+          ><select id="role">
+            <option value="psi1">Psicóloga 01 · Elena Ríos</option>
+            <option value="psi2">Psicólogo 02 · Daniel Mora</option>
+            <option value="patient">Paciente · Andrea López</option></select
+          ><label>Correo electrónico</label
+          ><input disabled="" value="demo@romimente.local" /><label
+            >Contraseña</label
+          ><input disabled="" type="password" value="demostracion" /><button
+            class="btn primary"
+            onclick="login()"
+          >
+            Entrar al prototipo →
+          </button>
+          <p class="hint">
+            Acceso simulado. No ingreses datos de pacientes reales. No hay
+            autenticación ni servidor.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="app hidden" id="app">
+      <aside class="sidebar">
+        <div class="brand">ROMI<span>mente</span>.</div>
+        <div class="navGroup" id="nav"></div>
+        <div class="sideBottom">
+          <div class="who">
+            <div class="avatar" id="avatar">ER</div>
+            <div>
+              <b id="username">Elena Ríos</b><br /><small id="userrole"
+                >Profesional</small
+              >
+            </div>
+          </div>
+          <button class="btn" onclick="logout()">Cerrar sesión</button>
+        </div>
+      </aside>
+      <main class="main"><div id="page"></div></main>
+      <div class="romi-float" id="romiFloating">
+        <button
+          id="romiLaunch"
+          class="romi-launch"
+          type="button"
+          onclick="toggleAssistant()"
+          aria-label="Abrir asistente clínico de ROMImente"
+          title="Asistente clínico IA"
+        >
+          <span class="romi-launch-symbol">✧</span><span>Asistente IA</span>
+        </button>
+        <section
+          class="romi-chat hidden"
+          id="romiChat"
+          aria-label="Asistente clínico IA"
+        >
+          <div class="romi-chat-header">
+            <div class="romi-chat-brand">
+              <span class="romi-chat-logo">✧</span>
+              <div>
+                <b>ROMImente</b><small>Asistente clínico · Demostración</small>
+              </div>
+            </div>
+            <div class="romi-chat-controls">
+              <button
+                type="button"
+                title="Minimizar"
+                aria-label="Minimizar asistente"
+                onclick="toggleAssistant(false)"
+              >
+                ─</button
+              ><button
+                type="button"
+                title="Cerrar"
+                aria-label="Cerrar asistente"
+                onclick="toggleAssistant(false)"
+              >
+                ×
+              </button>
+            </div>
+          </div>
+          <div class="romi-chat-content" id="romiChatContent"></div>
+        </section>
+      </div>
+    </div>
+    <div id="toast"></div>
+    <div id="modalRoot"></div>
+    <script defer src="/assets/core.js"></script>
+    <script defer src="/assets/programs.js"></script>
+    <script defer src="/assets/platform.js"></script>
+    <script defer src="/assets/workflows.js"></script>
+    <div id="activityPrintRoot" style="display: none"></div>
+  </body>
+</html>
