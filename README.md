@@ -83,3 +83,5 @@ El build de Vite copia los recursos estáticos. Se mantienen scripts clásicos p
 - Audio WhatsApp de 2026-09-29 15:29:38, transcrito localmente para revisar el encargo. Las dudas de reconocimiento se contrastaron con los formatos escritos; no se publica su transcripción.
 
 Consultar `docs/REQUISITOS.md` para la trazabilidad de los recursos y límites de la entrega.
+
+La [propuesta de alcance del MVP](docs/ALCANCE-MVP.md) define el flujo social, los permisos por función, los formularios por etapa y los responsables de revisar la declaración de uso. Está pendiente de aprobación institucional; no modifica los controles ni el alcance operativo de la demo.
